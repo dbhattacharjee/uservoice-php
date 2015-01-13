@@ -1,34 +1,36 @@
 {
-    "hash": "c84a74953772d8c8b5d034f89bd2d03e",
-    "packages": [
-
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
+    "hash": "5a990b6e0021c679a90b0b914a3d0760",
+    "packages": [],
     "packages-dev": [
         {
             "name": "lespoilus/spyc",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/lespoilus/spyc.git",
+                "url": "git@github.com:lespoilus/spyc.git",
                 "reference": "5a5bacdef1e514bdbb30701f13d9867140a6a21b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/lespoilus/spyc/zipball/5a5bacdef1e514bdbb30701f13d9867140a6a21b",
+                "url": "https://api.github.com/repos/lespoilus/spyc/zipball/5a5bacdef1e514bdbb30701f13d9867140a6a21b",
                 "reference": "5a5bacdef1e514bdbb30701f13d9867140a6a21b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.1"
             },
-            "time": "1350301967",
             "type": "library",
-            "installation-source": "source",
             "autoload": {
                 "files": [
                     "spyc.php"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT License"
             ],
@@ -41,11 +43,12 @@
             "description": "A simple YAML loader/dumper class for PHP",
             "homepage": "https://github.com/lespoius/spyc/",
             "keywords": [
+                "spyc",
                 "yaml",
-                "zf2",
                 "yml",
-                "spyc"
-            ]
+                "zf2"
+            ],
+            "time": "2012-10-15 11:52:47"
         },
         {
             "name": "simpletest/simpletest",
@@ -120,11 +123,16 @@
             "time": "2013-09-21 21:04:19"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "lespoilus/spyc": 20
-    }
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3",
+        "ext-mcrypt": "*"
+    },
+    "platform-dev": []
 }
